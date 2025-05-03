@@ -7,11 +7,12 @@ header, footer {
     padding: 0;
     margin: 0;
     }
-    aside {
+    aside#nav {
     float: left;
-    width: 170px;
-    margin: 0;
-    padding: 1em;
+    width: 100%;
+    margin: 0 0 1em 0;
+    padding: 0;
+    display:inline;
     }
     section {
     margin-left: 190px;
