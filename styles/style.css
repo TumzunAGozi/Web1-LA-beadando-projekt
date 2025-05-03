@@ -1,61 +1,148 @@
-header {
-    border-radius: 10px;
-    background-color: yellow;
-    padding: 10px;
-    margin: 10px;
+header, footer {
+    padding: 0.5em;
+    color: white;
+    background-color: gray;
     }
-    header img {
-    float: left;
-    margin: 20px 10px 0px 10px;
-    }
-    div#wrapper {
-    margin: 10px;
+    h1.header {
+    padding: 0;
+    margin: 0;
     }
     aside {
-    
-    display: table-cell;
-    
-    vertical-align: top;
+    float: left;
+    width: 170px;
+    margin: 0;
+    padding: 1em;
     }
-    nav {
-    margin: 0px 10px 0px 0px;
-    top: 0px;
-    border-radius: 10px;
-    background-color: #FF6600;
+    section {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
     }
-    nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 15px 0px;
+    ul {
+    float:left;
+    width:100%;
+    padding:0;
+    margin:0;
+    list-style-type:none;
     }
-    nav ul li {
-    padding: 0px 15px;
+    caption {
+        float: center;
+        font-size:x-large;
+        font-weight: bold;
     }
-    nav ul li.active {
-    border-right: 5px solid blue;
-    }
-    nav ul a {
-    text-decoration: none;
-    color: blue;
+    table {
+        border-collapse: collapse;
+        }
+        th, td {
+        padding: 10px 50px 10px 5px;
+        text-align: left;
+        font-family: sans-serif;
+        font-size: large;
+        }
+        th {
+        color: #1E459E;
+        background-color: #B9C9FE;
+        border-top: 5px solid #AABCFE;
+        }
+        td {
+        color: #7274A5;
+        background-color: #D0DAFD;
+        border-top: 3px solid #FFFFFF;
+        }
     div#content {
-    display: table-cell;
-    width: 100%;
-    border-radius: 10px;
-    background-color: #99FFCC;
-    padding: 15px;
+        display: table-cell;
+        width: 100%;
+        border-radius: 10px;
+        background-color: #99FFCC;
+        padding: 15px;
+        }
+    a {
+    float:left;
+    width:6em;
+    text-decoration:none;
+    color:white;
+    background-color:rgb(53, 128, 0);
+    padding:0.2em 0.6em;
+    border-right:1px solid white;
     }
-    div#content img{
-    float: right;
-    width: 20em;
-    height: auto;
-    margin: 0 0 15px 15px;
-    padding: 3px;
-    border: 3px solid blue;
+    a.active{
+    border-bottom:5px solid blue;
     }
-    footer {
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px 20px;
-    background-color: #CC99FF;
+    a:hover { background-color:#ff3300}
+    li {
+    display:inline;
     }
-}
+    .employee-form {
+        border-style: solid;
+        /* margin-bottom: 10px; */
+        /* margin-left: 10px; */
+        padding: 10px;
+        /* width: 50%; */
+        margin: auto;
+        width: 50%;
+        /* border: 3px solid green; */
+        /* padding: 10px; */
+        }
+        .employees-table {
+        border-style: solid;
+        /* margin-bottom: 10px; */
+        /* margin-left: 10px; */
+        padding: 20px;
+        /* width: 50%; */
+        margin: auto;
+        width: 70%;
+        /* border: 3px solid green; */
+        /* padding: 10px; */
+        }
+        body > table{
+        width: 80%;
+        }
+        table{
+        border-collapse: collapse;
+        }
+        table.list{
+        width:100%;
+        }
+        td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        }
+        tr:nth-child(even),table.list thead>tr {
+        background-color: #dddddd;
+        }
+        input[type=text], input[type=number] {
+        width: 100%;
+        padding: 8px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        }
+        input[type=submit] {
+        width: 30%;
+        background-color: black;
+        color: white;
+        padding: 10px 18px;
+        /* margin: 0px 0; */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+        form div.form-action-buttons{
+        text-align: right;
+        }
+        a{
+        cursor: pointer;
+        text-decoration: underline;
+        color: #f7f7f7;
+        margin-right: 4px;
+        }
+        label.validation-error{
+        color: red;
+        margin-left: 5px;
+        }
+        .hide{
+        display:none;
+        }
