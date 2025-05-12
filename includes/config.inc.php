@@ -1,6 +1,6 @@
 <?php
 $ablakcim = array(
-    'cim' => 'Webprogramozás-1-LA-Beadandó',
+    'cim' => 'Marton Tamás (S70LPH) Webprogramozás-1-LA-Beadandó',
 );
 
 $fejlec = array(
